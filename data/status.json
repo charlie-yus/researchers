@@ -67,6 +67,16 @@
   "log": [
     {
       "date": "2026-10-24",
+      "actor": "Claude",
+      "text": "写好写作 Skills 下载交付文档：第一批 22 项、第二批 14 项，统一装到 Claude 能用的位置并留安装清单。"
+    },
+    {
+      "date": "2026-10-24",
+      "actor": "Claude",
+      "text": "进展页公开上线：charlie-yus.github.io/researchers，AI 总结按钮指向线上 CONTEXT.md。"
+    },
+    {
+      "date": "2026-10-24",
       "actor": "老师",
       "text": "群内反馈：初稿交给 AI 提意见再修订，循环 50 轮；先实证，再稳健性与内生性，最后文字；始终遵守武汉学院格式；附最新写作 Skills 清单。"
     },
@@ -276,6 +286,13 @@
       "title": "进展实时反馈页（以流程图为首页）",
       "done": true,
       "date": "2026-10-24"
+    },
+    {
+      "id": "skills-1",
+      "group": "改稿",
+      "title": "装第一批写作 Skills（22 项）",
+      "done": false,
+      "note": "清单见 论文排版/写作Skills下载_交付文档_20261024.md"
     },
     {
       "id": "rev-empirical",
@@ -991,7 +1008,12 @@
         {
           "kind": "完成",
           "module": "Claude",
-          "text": "搭建本进展页，流程图、反馈、成果与给 AI 读的上下文同源更新。"
+          "text": "进展页公开上线（charlie-yus.github.io/researchers），流程图、意见、成果与给 AI 读的上下文同源更新。"
+        },
+        {
+          "kind": "工具",
+          "module": "Claude",
+          "text": "写好写作 Skills 下载清单：第一批 22 项先装，第二批 14 项随后，其余以后再说。"
         }
       ]
     },
