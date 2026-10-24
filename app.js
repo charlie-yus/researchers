@@ -32,13 +32,13 @@ $("#pillLinks").innerHTML = [["top", "流程"], ...SECTIONS].map(([id, n]) => `<
 
 $("#app").innerHTML = `
 <header class="hero" id="top"><div class="art"><img src="assets/art/hero.jpg" alt="" /></div><div class="hero-in">
-  <p class="eyebrow">本科毕业论文<i></i>更新于${ago <= 0 ? "今天" : ` ${ago} 天前`}</p>
+  <p class="eyebrow"><span class="eb-brand">王鸿鑫科研组<i></i></span>更新于${ago <= 0 ? "今天" : ` ${ago} 天前`}</p>
   <h1>论文进展<span>-由Agent实时更新</span></h1>
-  <p class="sub">${esc(S.meta.title)}${esc(S.meta.subtitle)}<br />${esc(S.meta.student)} · 指导老师 ${esc(S.meta.advisor)}</p>
-  <div class="ai-strip"><span class="tag">给 AI 读</span><span>让 AI 读这一页，<b>一键总结余帅同学的进展</b></span>
-    <nav><a href="${gpt}" target="_blank" rel="noopener">ChatGPT 总结</a><a href="${claude}" target="_blank" rel="noopener">Claude 总结</a><button id="copyCtx">复制全文</button><a href="${esc(S.meta.homepage)}" target="_blank" rel="noopener">个人主页</a></nav></div>
+  <p class="sub"><span>${esc(S.meta.title)}</span><span>${esc(S.meta.subtitle)}</span><br />${esc(S.meta.student)} · 指导老师 ${esc(S.meta.advisor)}</p>
+  <div class="ai-strip"><span>让 AI 读这一页，<b>一键总结进展</b></span>
+    <nav><a href="${gpt}" target="_blank" rel="noopener">ChatGPT</a><a href="${claude}" target="_blank" rel="noopener">Claude</a><button id="copyCtx">复制全文</button><a href="${esc(S.meta.homepage)}" target="_blank" rel="noopener">个人主页</a></nav></div>
   <div class="window">
-    <div class="win-bar"><b>${esc(S.flow.title)}</b><span>点圆圈看每一步</span>
+    <div class="win-bar"><b>论文流程</b><span class="hint">点圆圈看细节</span>
       <div class="track"><span><i class="pulse"></i>当前<b>改稿 ${R.rounds.length} / ${R.target} 轮</b></span>${next ? `<span>下一站<b>${md2(next.date)} ${esc(next.label)}</b>${days >= 0 ? `<em>${days} 天</em>` : ""}</span>` : ""}</div></div>
     <div class="flow">${window.flowSVG(S)}</div>
     ${window.flowList(S)}
@@ -54,7 +54,7 @@ $("#app").innerHTML = `
     <section id="tasks" class="block"><div class="bh"><h2>完成情况 <em>${done} / ${S.tasks.length}</em></h2><div class="seg" data-tabs="tasks">${GROUPS.map((g, i) => `<button aria-pressed="${!i}" data-k="${i}">${esc(g)}</button>`).join("")}</div></div>
       <div class="bar"><i style="width:${(done / S.tasks.length) * 100}%"></i></div><div class="bp" id="p-tasks"></div></section>
 
-    <section id="revision" class="block"><div class="bh"><h2>改稿 <em>${R.rounds.length} / ${R.target} 轮</em></h2><span class="hint">老师要求：AI 提意见 → 按意见改，循环 ${R.target} 轮</span></div>
+    <section id="revision" class="block"><div class="bh"><h2>改稿 <em>${R.rounds.length} / ${R.target} 轮</em></h2><span class="hint">AI 提意见，按意见改</span></div>
       <div class="phases">${R.phases.map((p, i) => `${i ? '<span class="arr">→</span>' : ""}<div class="phase${p.id === curPhase ? " on" : ""}"><small>${R.rounds.filter((x) => x.phase === p.id).length} 轮</small><b>${esc(p.name)}</b><span>${esc(p.desc)}</span></div>`).join("")}</div>
       ${R.rounds.length ? table(["轮", "日期", "阶段", "谁", "改了什么", "Skill"], [...R.rounds].reverse().map((x) => [x.n, md2(x.date), esc(R.phases.find((p) => p.id === x.phase)?.name), esc(x.by), esc(x.change), x.skills.map((s) => `<span class="tag">${esc(s)}</span>`).join(" ")])) : ""}</section>
 
@@ -67,13 +67,13 @@ $("#app").innerHTML = `
       <div class="files">${S.outputs.map((o, i) => `<button class="file" data-id="${o.id}"><span class="cover" style="background-position:${["6% 52%", "32% 40%", "50% 30%", "78% 34%", "96% 50%"][i % 5]}"><i>${LOCK}</i></span><b>${esc(o.title)}</b><small>${esc(o.kind)} · ${esc(o.note)}</small></button>`).join("")}</div></section>
   </div>
 </div>
-<footer><span>王鸿鑫科研组 · ${esc(S.meta.student)} · 更新于 ${longDate(S.meta.updated)}</span><a href="CONTEXT.md">CONTEXT.md</a></footer>`;
+<footer><span>王鸿鑫科研组 · ${esc(S.meta.student)} · ${md2(S.meta.updated)}更新</span><a href="CONTEXT.md">给 AI 的上下文</a></footer>`;
 
 // 各节横向切换：一次只显示一组
 const PANEL = {
   log: (i) => { const d = S.days[i]; const counts = KINDS.map((x) => [x, d.items.filter((it) => it.kind === x).length]).filter(([, n]) => n);
     return `<h3 class="dt">${esc(d.title)}</h3><div class="chips">${counts.map(([x, n]) => `<span class="chip k-${x}${x === "完成" ? " accent" : ""}">${x} ${n}</span>`).join("")}</div>
-      <ul class="items">${d.items.map((it) => `<li class="item"><h4>${esc(it.module)} · ${esc(it.kind)}</h4><p>${esc(it.text)}</p></li>`).join("")}</ul>`; },
+      <ul class="items">${d.items.map((it) => `<li class="item"><h4>${it.module === it.kind ? esc(it.kind) : `${esc(it.module)} · ${esc(it.kind)}`}</h4><p>${esc(it.text)}</p></li>`).join("")}</ul>`; },
   tasks: (i) => `<div class="cols">${S.tasks.filter((t) => t.group === GROUPS[i]).map(taskRow).join("")}</div>`,
   feedback: (i) => `<div class="fbt">` + table(["", "老师说", "落实"], FB[i][1].map((it) => [`<span class="st ${it.state}" title="${STATE[it.state]}"></span>`, esc(it.text), esc(it.reply)])) + "</div>",
   tools: (i) => { const t = S.tools;

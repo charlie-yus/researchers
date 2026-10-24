@@ -18,7 +18,12 @@ node update.mjs round <empirical|robust|text> <谁> "<改了什么>" [skill1,ski
 node update.mjs log <本人|Claude|GPT|老师> "<一句话>"
 node build.mjs                                       # 手改 status.json 后
 PASS=<密码> node encrypt.mjs                          # 成果文件有更新时重新加密
-./publish.sh                                         # 生成并推送到 GitHub（需先设好远程仓库）
+./publish.sh                                         # 生成并推送；没有新进展就不推
+```
+
+本机每天 12:30、23:30 自动跑一次 `publish.sh`（`~/Library/LaunchAgents/com.charlie-yus.researchers-publish.plist`，日志在 `~/Library/Logs/researchers-publish.log`）。当天没做事、status.json 没变，就不会有新提交。
+
+```sh
 ```
 
 ## 不放进仓库的东西
