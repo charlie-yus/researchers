@@ -1,0 +1,1063 @@
+{
+ "source": "王鸿鑫老师群内分享《论文与申报书写作Skills清单》2026-10-24版",
+ "repos": {
+  "Yuan1z0825/nature-skills": "https://github.com/Yuan1z0825/nature-skills/archive/refs/heads/main.zip",
+  "AIScientists-Dev/academic-humanizer": "https://github.com/AIScientists-Dev/academic-humanizer/archive/refs/heads/main.zip",
+  "blader/humanizer": "https://github.com/blader/humanizer/archive/refs/heads/main.zip",
+  "Kiterlin/anti-defensive-writing": "https://github.com/Kiterlin/anti-defensive-writing/archive/refs/heads/main.zip",
+  "njzjz/nsfc-agent-skills": "https://github.com/njzjz/nsfc-agent-skills/archive/refs/heads/master.zip",
+  "brycewang-stanford/Awesome-Journal-Skills": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/archive/refs/heads/main.zip"
+ },
+ "skills": [
+  {
+   "no": "010",
+   "group": "SMJ",
+   "name": "smj-workflow",
+   "task": "任务统筹",
+   "summary": "安排从选题到返修的任务顺序",
+   "advice": "需适配",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-workflow/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "031",
+   "group": "SMJ",
+   "name": "smj-topic-selection",
+   "task": "研究选题",
+   "summary": "聚焦研究问题与期刊适配",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-topic-selection/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "032",
+   "group": "SMJ",
+   "name": "smj-theory-development",
+   "task": "理论发展",
+   "summary": "界定构念，展开机制与假设",
+   "advice": "优先参考",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-theory-development/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "033",
+   "group": "SMJ",
+   "name": "smj-literature-positioning",
+   "task": "文献定位",
+   "summary": "定位最接近文献和研究缺口",
+   "advice": "优先参考",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-literature-positioning/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "034",
+   "group": "SMJ",
+   "name": "smj-methods",
+   "task": "研究方法",
+   "summary": "检查研究设计与论断是否匹配",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-methods/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "035",
+   "group": "SMJ",
+   "name": "smj-data-analysis",
+   "task": "分析论证",
+   "summary": "组织分析、证据与替代解释",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-data-analysis/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "036",
+   "group": "SMJ",
+   "name": "smj-contribution-framing",
+   "task": "贡献提炼",
+   "summary": "明确理论增量与贡献边界",
+   "advice": "优先参考",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-contribution-framing/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "037",
+   "group": "SMJ",
+   "name": "smj-tables-figures",
+   "task": "表格图件",
+   "summary": "组织表格、图件和结果展示",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-tables-figures/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "038",
+   "group": "SMJ",
+   "name": "smj-writing-style",
+   "task": "写作表达",
+   "summary": "改善句段结构、术语和行文",
+   "advice": "优先参考",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-writing-style/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "039",
+   "group": "SMJ",
+   "name": "smj-submission",
+   "task": "投稿准备",
+   "summary": "核对投稿材料与准备事项",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-submission/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "040",
+   "group": "SMJ",
+   "name": "smj-review-process",
+   "task": "审稿流程",
+   "summary": "组织审稿预判与修改任务",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-review-process/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "041",
+   "group": "SMJ",
+   "name": "smj-rebuttal",
+   "task": "返修回复",
+   "summary": "逐条回应意见并对应稿件修改",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-rebuttal/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "009",
+   "group": "AMJ",
+   "name": "amj-workflow",
+   "task": "任务统筹",
+   "summary": "安排从选题到返修的任务顺序",
+   "advice": "需适配",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-workflow/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "042",
+   "group": "AMJ",
+   "name": "amj-topic-selection",
+   "task": "研究选题",
+   "summary": "聚焦研究问题与期刊适配",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-topic-selection/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "043",
+   "group": "AMJ",
+   "name": "amj-theory-development",
+   "task": "理论发展",
+   "summary": "界定构念，展开机制与假设",
+   "advice": "优先参考",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-theory-development/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "044",
+   "group": "AMJ",
+   "name": "amj-literature-positioning",
+   "task": "文献定位",
+   "summary": "定位最接近文献和研究缺口",
+   "advice": "优先参考",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-literature-positioning/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "045",
+   "group": "AMJ",
+   "name": "amj-methods",
+   "task": "研究方法",
+   "summary": "检查研究设计与论断是否匹配",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-methods/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "046",
+   "group": "AMJ",
+   "name": "amj-data-analysis",
+   "task": "分析论证",
+   "summary": "组织分析、证据与替代解释",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-data-analysis/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "047",
+   "group": "AMJ",
+   "name": "amj-contribution-framing",
+   "task": "贡献提炼",
+   "summary": "明确理论增量与贡献边界",
+   "advice": "优先参考",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-contribution-framing/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "048",
+   "group": "AMJ",
+   "name": "amj-tables-figures",
+   "task": "表格图件",
+   "summary": "组织表格、图件和结果展示",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-tables-figures/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "049",
+   "group": "AMJ",
+   "name": "amj-writing-style",
+   "task": "写作表达",
+   "summary": "改善句段结构、术语和行文",
+   "advice": "优先参考",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-writing-style/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "050",
+   "group": "AMJ",
+   "name": "amj-submission",
+   "task": "投稿准备",
+   "summary": "核对投稿材料与准备事项",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-submission/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "051",
+   "group": "AMJ",
+   "name": "amj-review-process",
+   "task": "审稿流程",
+   "summary": "组织审稿预判与修改任务",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-review-process/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "052",
+   "group": "AMJ",
+   "name": "amj-rebuttal",
+   "task": "返修回复",
+   "summary": "逐条回应意见并对应稿件修改",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-rebuttal/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "053",
+   "group": "AMR",
+   "name": "amr-workflow",
+   "task": "任务统筹",
+   "summary": "安排从选题到返修的任务顺序",
+   "advice": "需适配",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-workflow/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "054",
+   "group": "AMR",
+   "name": "amr-topic-selection",
+   "task": "研究选题",
+   "summary": "聚焦研究问题与期刊适配",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-topic-selection/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "055",
+   "group": "AMR",
+   "name": "amr-theory-development",
+   "task": "理论发展",
+   "summary": "界定构念，展开机制与假设",
+   "advice": "优先参考",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-theory-development/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "056",
+   "group": "AMR",
+   "name": "amr-literature-positioning",
+   "task": "文献定位",
+   "summary": "定位最接近文献和研究缺口",
+   "advice": "优先参考",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-literature-positioning/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "057",
+   "group": "AMR",
+   "name": "amr-methods",
+   "task": "研究方法",
+   "summary": "检查研究设计与论断是否匹配",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-methods/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "058",
+   "group": "AMR",
+   "name": "amr-data-analysis",
+   "task": "分析论证",
+   "summary": "检查论证逻辑、反事实与替代解释",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-data-analysis/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "059",
+   "group": "AMR",
+   "name": "amr-contribution-framing",
+   "task": "贡献提炼",
+   "summary": "明确理论增量与贡献边界",
+   "advice": "优先参考",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-contribution-framing/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "060",
+   "group": "AMR",
+   "name": "amr-tables-figures",
+   "task": "表格图件",
+   "summary": "组织表格、图件和结果展示",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-tables-figures/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "061",
+   "group": "AMR",
+   "name": "amr-writing-style",
+   "task": "写作表达",
+   "summary": "改善句段结构、术语和行文",
+   "advice": "优先参考",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-writing-style/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "062",
+   "group": "AMR",
+   "name": "amr-submission",
+   "task": "投稿准备",
+   "summary": "核对投稿材料与准备事项",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-submission/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "063",
+   "group": "AMR",
+   "name": "amr-review-process",
+   "task": "审稿流程",
+   "summary": "组织审稿预判与修改任务",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-review-process/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "064",
+   "group": "AMR",
+   "name": "amr-rebuttal",
+   "task": "返修回复",
+   "summary": "逐条回应意见并对应稿件修改",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-rebuttal/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "065",
+   "group": "ASQ",
+   "name": "asq-workflow",
+   "task": "任务统筹",
+   "summary": "安排从选题到返修的任务顺序",
+   "advice": "需适配",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-workflow/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "066",
+   "group": "ASQ",
+   "name": "asq-topic-selection",
+   "task": "研究选题",
+   "summary": "聚焦研究问题与期刊适配",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-topic-selection/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "067",
+   "group": "ASQ",
+   "name": "asq-theory-development",
+   "task": "理论发展",
+   "summary": "界定构念，展开机制与假设",
+   "advice": "优先参考",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-theory-development/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "068",
+   "group": "ASQ",
+   "name": "asq-literature-positioning",
+   "task": "文献定位",
+   "summary": "定位最接近文献和研究缺口",
+   "advice": "优先参考",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-literature-positioning/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "069",
+   "group": "ASQ",
+   "name": "asq-methods",
+   "task": "研究方法",
+   "summary": "检查研究设计与论断是否匹配",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-methods/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "070",
+   "group": "ASQ",
+   "name": "asq-data-analysis",
+   "task": "分析论证",
+   "summary": "组织分析、证据与替代解释",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-data-analysis/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "071",
+   "group": "ASQ",
+   "name": "asq-contribution-framing",
+   "task": "贡献提炼",
+   "summary": "明确理论增量与贡献边界",
+   "advice": "优先参考",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-contribution-framing/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "072",
+   "group": "ASQ",
+   "name": "asq-tables-figures",
+   "task": "表格图件",
+   "summary": "组织表格、图件和结果展示",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-tables-figures/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "073",
+   "group": "ASQ",
+   "name": "asq-writing-style",
+   "task": "写作表达",
+   "summary": "改善句段结构、术语和行文",
+   "advice": "优先参考",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-writing-style/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "074",
+   "group": "ASQ",
+   "name": "asq-submission",
+   "task": "投稿准备",
+   "summary": "核对投稿材料与准备事项",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-submission/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "075",
+   "group": "ASQ",
+   "name": "asq-review-process",
+   "task": "审稿流程",
+   "summary": "组织审稿预判与修改任务",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-review-process/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "076",
+   "group": "ASQ",
+   "name": "asq-rebuttal",
+   "task": "返修回复",
+   "summary": "逐条回应意见并对应稿件修改",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-rebuttal/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "077",
+   "group": "JIBS",
+   "name": "jibs-workflow",
+   "task": "任务统筹",
+   "summary": "安排从选题到返修的任务顺序",
+   "advice": "需适配",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Journal-of-International-Business-Studies-Skills/skills/jibs-workflow/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "078",
+   "group": "JIBS",
+   "name": "jibs-topic-selection",
+   "task": "研究选题",
+   "summary": "聚焦研究问题与期刊适配",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Journal-of-International-Business-Studies-Skills/skills/jibs-topic-selection/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "079",
+   "group": "JIBS",
+   "name": "jibs-theory-development",
+   "task": "理论发展",
+   "summary": "界定构念，展开机制与假设",
+   "advice": "优先参考",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Journal-of-International-Business-Studies-Skills/skills/jibs-theory-development/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "080",
+   "group": "JIBS",
+   "name": "jibs-literature-positioning",
+   "task": "文献定位",
+   "summary": "定位最接近文献和研究缺口",
+   "advice": "优先参考",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Journal-of-International-Business-Studies-Skills/skills/jibs-literature-positioning/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "081",
+   "group": "JIBS",
+   "name": "jibs-methods",
+   "task": "研究方法",
+   "summary": "检查研究设计与论断是否匹配",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Journal-of-International-Business-Studies-Skills/skills/jibs-methods/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "082",
+   "group": "JIBS",
+   "name": "jibs-data-analysis",
+   "task": "分析论证",
+   "summary": "组织分析、证据与替代解释",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Journal-of-International-Business-Studies-Skills/skills/jibs-data-analysis/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "083",
+   "group": "JIBS",
+   "name": "jibs-contribution-framing",
+   "task": "贡献提炼",
+   "summary": "明确理论增量与贡献边界",
+   "advice": "优先参考",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Journal-of-International-Business-Studies-Skills/skills/jibs-contribution-framing/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "084",
+   "group": "JIBS",
+   "name": "jibs-tables-figures",
+   "task": "表格图件",
+   "summary": "组织表格、图件和结果展示",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Journal-of-International-Business-Studies-Skills/skills/jibs-tables-figures/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "085",
+   "group": "JIBS",
+   "name": "jibs-writing-style",
+   "task": "写作表达",
+   "summary": "改善句段结构、术语和行文",
+   "advice": "优先参考",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Journal-of-International-Business-Studies-Skills/skills/jibs-writing-style/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "086",
+   "group": "JIBS",
+   "name": "jibs-submission",
+   "task": "投稿准备",
+   "summary": "核对投稿材料与准备事项",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Journal-of-International-Business-Studies-Skills/skills/jibs-submission/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "087",
+   "group": "JIBS",
+   "name": "jibs-review-process",
+   "task": "审稿流程",
+   "summary": "组织审稿预判与修改任务",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Journal-of-International-Business-Studies-Skills/skills/jibs-review-process/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "088",
+   "group": "JIBS",
+   "name": "jibs-rebuttal",
+   "task": "返修回复",
+   "summary": "逐条回应意见并对应稿件修改",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Journal-of-International-Business-Studies-Skills/skills/jibs-rebuttal/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "089",
+   "group": "OS",
+   "name": "orgsci-workflow",
+   "task": "任务统筹",
+   "summary": "安排从选题到返修的任务顺序",
+   "advice": "需适配",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-workflow/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "090",
+   "group": "OS",
+   "name": "orgsci-topic-selection",
+   "task": "研究选题",
+   "summary": "聚焦研究问题与期刊适配",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-topic-selection/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "091",
+   "group": "OS",
+   "name": "orgsci-theory-development",
+   "task": "理论发展",
+   "summary": "界定构念，展开机制与假设",
+   "advice": "优先参考",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-theory-development/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "092",
+   "group": "OS",
+   "name": "orgsci-literature-positioning",
+   "task": "文献定位",
+   "summary": "定位最接近文献和研究缺口",
+   "advice": "优先参考",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-literature-positioning/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "093",
+   "group": "OS",
+   "name": "orgsci-methods",
+   "task": "研究方法",
+   "summary": "检查研究设计与论断是否匹配",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-methods/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "094",
+   "group": "OS",
+   "name": "orgsci-data-analysis",
+   "task": "分析论证",
+   "summary": "组织分析、证据与替代解释",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-data-analysis/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "095",
+   "group": "OS",
+   "name": "orgsci-contribution-framing",
+   "task": "贡献提炼",
+   "summary": "明确理论增量与贡献边界",
+   "advice": "优先参考",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-contribution-framing/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "096",
+   "group": "OS",
+   "name": "orgsci-tables-figures",
+   "task": "表格图件",
+   "summary": "组织表格、图件和结果展示",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-tables-figures/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "097",
+   "group": "OS",
+   "name": "orgsci-writing-style",
+   "task": "写作表达",
+   "summary": "改善句段结构、术语和行文",
+   "advice": "优先参考",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-writing-style/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "098",
+   "group": "OS",
+   "name": "orgsci-submission",
+   "task": "投稿准备",
+   "summary": "核对投稿材料与准备事项",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-submission/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "099",
+   "group": "OS",
+   "name": "orgsci-review-process",
+   "task": "审稿流程",
+   "summary": "组织审稿预判与修改任务",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-review-process/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "100",
+   "group": "OS",
+   "name": "orgsci-rebuttal",
+   "task": "返修回复",
+   "summary": "逐条回应意见并对应稿件修改",
+   "advice": "按需使用",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-rebuttal/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "003",
+   "group": "申报书",
+   "name": "nsfc-write",
+   "task": "正文撰写",
+   "summary": "梳理立项依据、研究内容与研究方案",
+   "advice": "需适配",
+   "url": "https://github.com/njzjz/nsfc-agent-skills/blob/master/nsfc-write/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "005",
+   "group": "申报书",
+   "name": "researchwrite",
+   "task": "项目论证",
+   "summary": "用事实台账与证据组织申请书论证",
+   "advice": "需适配",
+   "url": "https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-proposal-writer/SKILL.md",
+   "installed": true
+  },
+  {
+   "no": "027",
+   "group": "申报书",
+   "name": "nsfc-figure",
+   "task": "框架图件",
+   "summary": "制作可编辑框架图与技术路线图",
+   "advice": "按需使用",
+   "url": "https://github.com/njzjz/nsfc-agent-skills/blob/master/nsfc-figure/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "028",
+   "group": "申报书",
+   "name": "nsfc-literature",
+   "task": "文献引用",
+   "summary": "补查候选文献与初步引用元数据",
+   "advice": "按需使用",
+   "url": "https://github.com/njzjz/nsfc-agent-skills/blob/master/nsfc-literature/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "029",
+   "group": "申报书",
+   "name": "nsfc-policy",
+   "task": "政策核查",
+   "summary": "建立年度政策与模板核验事项",
+   "advice": "限定用途",
+   "url": "https://github.com/njzjz/nsfc-agent-skills/blob/master/nsfc-policy/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "004",
+   "group": "论文通用",
+   "name": "nature-social-science",
+   "task": "理论选题",
+   "summary": "梳理问题、构念、机制与证据路线",
+   "advice": "优先参考",
+   "url": "https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-social-science/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "013",
+   "group": "论文通用",
+   "name": "nature-writing",
+   "task": "章节写作",
+   "summary": "组织论文论证、章节与初投材料",
+   "advice": "需适配",
+   "url": "https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-writing/SKILL.md",
+   "installed": true
+  },
+  {
+   "no": "014",
+   "group": "论文通用",
+   "name": "nature-reviewer",
+   "task": "投稿前审稿",
+   "summary": "模拟审稿并核查稿件内部矛盾",
+   "advice": "需适配",
+   "url": "https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-reviewer/SKILL.md",
+   "installed": true
+  },
+  {
+   "no": "021",
+   "group": "论文通用",
+   "name": "nature-response",
+   "task": "返修回复",
+   "summary": "对应审稿意见、修改位置与返修材料",
+   "advice": "按需使用",
+   "url": "https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-response/SKILL.md",
+   "installed": true
+  },
+  {
+   "no": "030",
+   "group": "论文通用",
+   "name": "journal-of-international-business-studies",
+   "task": "JIBS概览",
+   "summary": "检查国际商务机制、贡献与跨国测量",
+   "advice": "需适配",
+   "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/English-SocialScience-Journal-Skills/skills/journal-of-international-business-studies/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "006",
+   "group": "文献工作",
+   "name": "nature-academic-search",
+   "task": "文献检索",
+   "summary": "多源检索文献并整理引用元数据",
+   "advice": "优先参考",
+   "url": "https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-academic-search/SKILL.md",
+   "installed": true
+  },
+  {
+   "no": "007",
+   "group": "文献工作",
+   "name": "nature-ref-verifier",
+   "task": "书目核验",
+   "summary": "核对作者、年份、题名、页码和DOI",
+   "advice": "优先参考",
+   "url": "https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-ref-verifier/SKILL.md",
+   "installed": true
+  },
+  {
+   "no": "008",
+   "group": "文献工作",
+   "name": "nature-reader",
+   "task": "全文核对",
+   "summary": "阅读原文并核对具体观点的支持证据",
+   "advice": "优先参考",
+   "url": "https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-reader/SKILL.md",
+   "installed": true
+  },
+  {
+   "no": "015",
+   "group": "文献工作",
+   "name": "nature-citation",
+   "task": "CNS补引",
+   "summary": "匹配Nature、Science、Cell范围文献",
+   "advice": "限定用途",
+   "url": "https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-citation/SKILL.md",
+   "installed": true
+  },
+  {
+   "no": "018",
+   "group": "文献工作",
+   "name": "nature-paper-xray",
+   "task": "核心精读",
+   "summary": "还原研究起点、设计、推理与证据边界",
+   "advice": "按需使用",
+   "url": "https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-paper-xray/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "019",
+   "group": "文献工作",
+   "name": "nature-paper-trans",
+   "task": "辅助翻译",
+   "summary": "生成保留原版布局的中文图片型PDF",
+   "advice": "按需使用",
+   "url": "https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-paper-trans/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "020",
+   "group": "文献工作",
+   "name": "nature-paper-card",
+   "task": "精读卡片",
+   "summary": "整理主张、方法、结果和可检验想法",
+   "advice": "按需使用",
+   "url": "https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-paper-card/SKILL.md",
+   "installed": true
+  },
+  {
+   "no": "024",
+   "group": "文献工作",
+   "name": "nature-downloader",
+   "task": "全文获取",
+   "summary": "从开放或有权访问的入口获取全文",
+   "advice": "按需使用",
+   "url": "https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-downloader/SKILL.md",
+   "installed": true
+  },
+  {
+   "no": "025",
+   "group": "文献工作",
+   "name": "nature-literature-pipeline",
+   "task": "持续跟踪",
+   "summary": "持续发现、精读与归档新文献",
+   "advice": "按需使用",
+   "url": "https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-literature-pipeline/SKILL.md",
+   "installed": true
+  },
+  {
+   "no": "001",
+   "group": "表达润色",
+   "name": "academic-humanizer",
+   "task": "学术润色",
+   "summary": "校准论断强度，保留证据与作者语气",
+   "advice": "优先参考",
+   "url": "https://github.com/AIScientists-Dev/academic-humanizer/blob/main/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "002",
+   "group": "表达润色",
+   "name": "anti-defensive-writing",
+   "task": "直接表达",
+   "summary": "删除防御性措辞、空泛让步与重复解释",
+   "advice": "优先参考",
+   "url": "https://github.com/Kiterlin/anti-defensive-writing/blob/main/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "012",
+   "group": "表达润色",
+   "name": "nature-polishing",
+   "task": "语言精修",
+   "summary": "润色、翻译和精简已有学术文本",
+   "advice": "优先参考",
+   "url": "https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-polishing/SKILL.md",
+   "installed": true
+  },
+  {
+   "no": "026",
+   "group": "表达润色",
+   "name": "humanizer",
+   "task": "语言检查",
+   "summary": "检查套话、机械对比和重复收尾",
+   "advice": "按需使用",
+   "url": "https://github.com/blader/humanizer/blob/main/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "011",
+   "group": "方法与图件",
+   "name": "nature-figure",
+   "task": "论文制图",
+   "summary": "制作统计图、交互效应图与理论框架图",
+   "advice": "按需使用",
+   "url": "https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-figure/SKILL.md",
+   "installed": true
+  },
+  {
+   "no": "016",
+   "group": "方法与图件",
+   "name": "nature-data",
+   "task": "数据说明",
+   "summary": "编写数据和代码可用性说明",
+   "advice": "按需使用",
+   "url": "https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-data/SKILL.md",
+   "installed": true
+  },
+  {
+   "no": "017",
+   "group": "方法与图件",
+   "name": "nature-statistics",
+   "task": "统计报告",
+   "summary": "审核样本、效应量、区间与数值一致性",
+   "advice": "需适配",
+   "url": "https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-statistics/SKILL.md",
+   "installed": true
+  },
+  {
+   "no": "022",
+   "group": "方法与图件",
+   "name": "nature-paper2ppt",
+   "task": "论文汇报",
+   "summary": "从论文或笔记生成中文汇报PPT与讲稿",
+   "advice": "按需使用",
+   "url": "https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-paper2ppt/SKILL.md",
+   "installed": true
+  },
+  {
+   "no": "023",
+   "group": "方法与图件",
+   "name": "nature-image2ppt",
+   "task": "图件编辑",
+   "summary": "将图片型幻灯片重建为可编辑对象",
+   "advice": "按需使用",
+   "url": "https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-image2ppt/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "101",
+   "group": "文献工作",
+   "name": "literature-downloader-skill",
+   "task": "检索与下载",
+   "summary": "检索文献、整理题录及获取可访问全文",
+   "advice": "按需使用",
+   "url": "https://github.com/Lucaswangzcx/literature-downloader-skill/blob/main/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "102",
+   "group": "方法与图件",
+   "name": "Image-to-editable-PPT",
+   "task": "图转可编辑PPT",
+   "summary": "将图片、PDF及图片型PPT重建为可编辑对象",
+   "advice": "来源待确认",
+   "url": "https://github.com/ningzimu/image-to-editable-ppt-skill/blob/main/skills/image-to-editable-ppt/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "103",
+   "group": "方法与图件",
+   "name": "literature-report-ppt-builder",
+   "task": "文献汇报PPT",
+   "summary": "依据论文与补充材料制作中文文献汇报PPT",
+   "advice": "按需使用",
+   "url": "https://github.com/fangyuanopus/literature-report-ppt-builder/blob/main/skills/academic-slide-pragmatic-fallback/SKILL.md",
+   "installed": false
+  },
+  {
+   "no": "104",
+   "group": "综合工具包",
+   "name": "academic-research-skills-codex",
+   "task": "科研流程统筹",
+   "summary": "统筹文献研究、论文写作、评审与修订",
+   "advice": "按需使用",
+   "url": "https://github.com/Imbad0202/academic-research-skills-codex/blob/main/skills/academic-research-suite/SKILL.md",
+   "installed": true
+  },
+  {
+   "no": "105",
+   "group": "综合工具包",
+   "name": "codex-claude-academic-skills",
+   "task": "写作与文档",
+   "summary": "整合学术写作、Word／PPT及科研计算",
+   "advice": "按需使用",
+   "url": "",
+   "installed": false
+  }
+ ]
+}
