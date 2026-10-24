@@ -109,6 +109,7 @@
 
 ## 协作记录（新在前）
 
+- 2026-10-24 · GPT：新增安装46项写作Skills，累计82项；AMJ、SMJ、AMR、ASQ、Organization Science各12项已齐。申报书、CNS引用与3项PPT工具已装；102源码已核实，因自动推定外发授权未启用。安装清单与资源路径已核验，不计改稿轮次。
 - 2026-10-24 · GPT：两批写作 Skills 共36项已安装至Claude，另补3个共享资源目录；完成逐项入口与文件哈希核验，留存安装清单。未执行仓库脚本，未修改论文正文，不计作改稿轮次。
 - 2026-10-24 · Claude：写好写作 Skills 下载交付文档：第一批 22 项、第二批 14 项，统一装到 Claude 能用的位置并留安装清单。
 - 2026-10-24 · Claude：进展页公开上线：charlie-yus.github.io/researchers，AI 总结按钮指向线上 CONTEXT.md。
@@ -126,7 +127,7 @@
 - 数据：CSMAR 数字化转型指标库（年报人工智能关键词词频（“说”））；CSMAR 人工智能研究数据库（人工智能相关软硬件资产（“做”））；CSMAR 财务、治理、上市状态（控制变量、ST 识别、企业所在城市）；CNRDS 专利数据库（发明专利申请、授权、IPC 分类、被引）；CNRDS 人工智能专利库（人工智能发明专利申请）；老师的常用控制变量包（2000-2025 年控制变量与产权性质）；巨潮资讯网年报（公开年报，抽查关键词语境）；国家知识产权局 AI 技术分类（2023 年版，界定 AI 专利口径）；人工智能创新发展试验区名单（公开名单，评估准自然实验）；知网、Web of Science、EBSCO、Wiley（文献检索与全文下载）；Crossref、OpenAlex（题录核验）。原始数据只存本机和私有云备份，不公开、不转发。
 - 模型：Claude Code（Claude Opus）：研究设计与假设、R / Python 实证代码、测量检验、审稿式自查、插图、中期汇报、本进展页；ChatGPT / Codex（GPT）：文献检索与引用核定、数据下载清洗、Word 与 LaTeX 排版、答辩演示、云备份、工具安装；本人：选题与取舍、校内网络下载数据、审阅每一稿、与老师沟通
 - MCP：Claude 内置浏览器 / Claude in Chrome（Claude，网页查阅与核对）；scholar-search（Codex，文献检索）；zotero-research（Codex，读取 Zotero 文献库（库目前为空））；cloudflare-thesis（Codex，论文私有云备份与回读核对）；r-mcptools（Codex，调用 R）；computer-use（Codex，操作桌面应用）
-- Skill：docx（Claude，用过）；academic-search（Codex，已装）；academic-research-suite（Codex，已装）；snl-paper-writing（Codex，已装）；paper-writing-tips（Codex，已装）；latex-to-word-workflow（Codex，已装）；zotero-cli（Codex，已装）；nature-* 系列（Codex，已装）；Supervisor-Skills（Codex，已装）；写作 Skills 两批（36项）（Claude，已装）
+- Skill：docx（Claude，用过）；academic-search（Codex，已装）；academic-research-suite（Codex，已装）；snl-paper-writing（Codex，已装）；paper-writing-tips（Codex，已装）；latex-to-word-workflow（Codex，已装）；zotero-cli（Codex，已装）；nature-* 系列（Codex，已装）；Supervisor-Skills（Codex，已装）；写作 Skills（82项）（Claude，已装）
 - 软件：R（data.table、fixest、lavaan、semTools、sirt）；Python（pandas、numpy；数据清洗与插图）；XeLaTeX、Pandoc（LaTeX 版论文与答辩演示、格式转换）；Pages、LibreOffice（导出 PDF、检查 Word 版式）；Zotero（文献管理（已装，库为空））；Citation Checker（引用题录核验）；PyMuPDF、Poppler、MinerU（PDF 转文本与版式检查）；Playwright + Chrome（SVG 插图转高清 PNG）；Cloudflare R2（论文材料私有备份）；Idea Gatekeeper（研究扩展线索（只读浏览））
 
 ## 老师的写作 Skills 清单（105 项，本机已装 17 项）
