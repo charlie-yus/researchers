@@ -109,6 +109,7 @@
 
 ## 协作记录（新在前）
 
+- 2026-10-24 · GPT：完成改稿前置T1—T6：三份独立审稿输入经核验，67条意见（26必改），772项表格数值及星号核对，补6篇中文全文证据卡；只出报告，未改正文或重跑回归，不计改稿轮次。Claude的82项Skill标记已核实，补正103。
 - 2026-10-24 · Claude：写好改稿前置任务交付：审稿意见池、数字一致性、识别策略菜单、中文文献补充、格式与文字预检交给 GPT。
 - 2026-10-24 · GPT：老师清单写作 Skills 已装到 Claude：第一批 22 项、第二批 14 项及扩展，0 冲突。
 - 2026-10-24 · GPT：新增安装46项写作Skills，累计82项；AMJ、SMJ、AMR、ASQ、Organization Science各12项已齐。申报书、CNS引用与3项PPT工具已装；102源码已核实，因自动推定外发授权未启用。安装清单与资源路径已核验，不计改稿轮次。
@@ -132,7 +133,7 @@
 - Skill：老师清单写作 Skills（Claude，已装）；docx（Claude，用过）；academic-search（Codex，已装）；academic-research-suite（Codex，已装）；snl-paper-writing（Codex，已装）；paper-writing-tips（Codex，已装）；latex-to-word-workflow（Codex，已装）；zotero-cli（Codex，已装）；nature-* 系列（Codex，已装）；Supervisor-Skills（Codex，已装）；写作 Skills（82项）（Claude，已装）
 - 软件：R（data.table、fixest、lavaan、semTools、sirt）；Python（pandas、numpy；数据清洗与插图）；XeLaTeX、Pandoc（LaTeX 版论文与答辩演示、格式转换）；Pages、LibreOffice（导出 PDF、检查 Word 版式）；Zotero（文献管理（已装，库为空））；Citation Checker（引用题录核验）；PyMuPDF、Poppler、MinerU（PDF 转文本与版式检查）；Playwright + Chrome（SVG 插图转高清 PNG）；Cloudflare R2（论文材料私有备份）；Idea Gatekeeper（研究扩展线索（只读浏览））
 
-## 老师的写作 Skills 清单（105 项，本机已装 88 项）
+## 老师的写作 Skills 清单（105 项，本机已装 89 项）
 
 来源：王鸿鑫老师群内分享《论文与申报书写作Skills清单》2026-10-24版。整包下载：
 - Yuan1z0825/nature-skills：https://github.com/Yuan1z0825/nature-skills/archive/refs/heads/main.zip
@@ -246,7 +247,7 @@
 | 023 | 方法与图件 | [nature-image2ppt](https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-image2ppt/SKILL.md) | 将图片型幻灯片重建为可编辑对象 | 按需使用 | 是 |
 | 101 | 文献工作 | [literature-downloader-skill](https://github.com/Lucaswangzcx/literature-downloader-skill/blob/main/SKILL.md) | 检索文献、整理题录及获取可访问全文 | 按需使用 | 是 |
 | 102 | 方法与图件 | [Image-to-editable-PPT](https://github.com/ningzimu/image-to-editable-ppt-skill/blob/main/skills/image-to-editable-ppt/SKILL.md) | 将图片、PDF及图片型PPT重建为可编辑对象 | 来源待确认 |  |
-| 103 | 方法与图件 | [literature-report-ppt-builder](https://github.com/fangyuanopus/literature-report-ppt-builder/blob/main/skills/academic-slide-pragmatic-fallback/SKILL.md) | 依据论文与补充材料制作中文文献汇报PPT | 按需使用 |  |
+| 103 | 方法与图件 | [literature-report-ppt-builder](https://github.com/fangyuanopus/literature-report-ppt-builder/blob/main/skills/academic-slide-pragmatic-fallback/SKILL.md) | 依据论文与补充材料制作中文文献汇报PPT | 按需使用 | 是 |
 | 104 | 综合工具包 | [academic-research-skills-codex](https://github.com/Imbad0202/academic-research-skills-codex/blob/main/skills/academic-research-suite/SKILL.md) | 统筹文献研究、论文写作、评审与修订 | 按需使用 | 是 |
 | 105 | 综合工具包 | codex-claude-academic-skills | 整合学术写作、Word／PPT及科研计算 | 按需使用 |  |
 

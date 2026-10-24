@@ -1139,8 +1139,8 @@
    "summary": "依据论文与补充材料制作中文文献汇报PPT",
    "advice": "按需使用",
    "url": "https://github.com/fangyuanopus/literature-report-ppt-builder/blob/main/skills/academic-slide-pragmatic-fallback/SKILL.md",
-   "installed": false,
-   "claude": false
+   "installed": true,
+   "claude": true
   },
   {
    "no": "104",
