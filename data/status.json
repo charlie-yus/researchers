@@ -67,6 +67,11 @@
   "log": [
     {
       "date": "2026-10-24",
+      "actor": "GPT",
+      "text": "两批写作 Skills 共36项已安装至Claude，另补3个共享资源目录；完成逐项入口与文件哈希核验，留存安装清单。未执行仓库脚本，未修改论文正文，不计作改稿轮次。"
+    },
+    {
+      "date": "2026-10-24",
       "actor": "Claude",
       "text": "写好写作 Skills 下载交付文档：第一批 22 项、第二批 14 项，统一装到 Claude 能用的位置并留安装清单。"
     },
@@ -291,8 +296,9 @@
       "id": "skills-1",
       "group": "改稿",
       "title": "装第一批写作 Skills（22 项）",
-      "done": false,
-      "note": "清单见 论文排版/写作Skills下载_交付文档_20261024.md"
+      "done": true,
+      "note": "清单见 论文排版/写作Skills下载_交付文档_20261024.md",
+      "date": "2026-10-24"
     },
     {
       "id": "rev-empirical",
@@ -335,6 +341,14 @@
       "group": "汇报与节点",
       "title": "2027 年 4 月 15 日定稿",
       "done": false
+    },
+    {
+      "id": "skills-2",
+      "group": "改稿",
+      "title": "装第二批写作 Skills（14 项）",
+      "done": true,
+      "date": "2026-10-24",
+      "note": "用户已授权两批全部安装；两批合计36项，另3个共享资源目录。"
     }
   ],
   "revision": {
@@ -581,6 +595,12 @@
         "Supervisor-Skills",
         "Codex",
         "11 项",
+        "installed"
+      ],
+      [
+        "写作 Skills 两批（36项）",
+        "Claude",
+        "22项第一批、14项第二批，资源链接与文件哈希已核验；新会话按需调用",
         "installed"
       ]
     ],
