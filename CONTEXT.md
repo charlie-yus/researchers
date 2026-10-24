@@ -109,6 +109,8 @@
 
 ## 协作记录（新在前）
 
+- 2026-10-24 · Claude：写好改稿前置任务交付：审稿意见池、数字一致性、识别策略菜单、中文文献补充、格式与文字预检交给 GPT。
+- 2026-10-24 · GPT：老师清单写作 Skills 已装到 Claude：第一批 22 项、第二批 14 项及扩展，0 冲突。
 - 2026-10-24 · GPT：新增安装46项写作Skills，累计82项；AMJ、SMJ、AMR、ASQ、Organization Science各12项已齐。申报书、CNS引用与3项PPT工具已装；102源码已核实，因自动推定外发授权未启用。安装清单与资源路径已核验，不计改稿轮次。
 - 2026-10-24 · GPT：两批写作 Skills 共36项已安装至Claude，另补3个共享资源目录；完成逐项入口与文件哈希核验，留存安装清单。未执行仓库脚本，未修改论文正文，不计作改稿轮次。
 - 2026-10-24 · Claude：写好写作 Skills 下载交付文档：第一批 22 项、第二批 14 项，统一装到 Claude 能用的位置并留安装清单。
@@ -127,10 +129,10 @@
 - 数据：CSMAR 数字化转型指标库（年报人工智能关键词词频（“说”））；CSMAR 人工智能研究数据库（人工智能相关软硬件资产（“做”））；CSMAR 财务、治理、上市状态（控制变量、ST 识别、企业所在城市）；CNRDS 专利数据库（发明专利申请、授权、IPC 分类、被引）；CNRDS 人工智能专利库（人工智能发明专利申请）；老师的常用控制变量包（2000-2025 年控制变量与产权性质）；巨潮资讯网年报（公开年报，抽查关键词语境）；国家知识产权局 AI 技术分类（2023 年版，界定 AI 专利口径）；人工智能创新发展试验区名单（公开名单，评估准自然实验）；知网、Web of Science、EBSCO、Wiley（文献检索与全文下载）；Crossref、OpenAlex（题录核验）。原始数据只存本机和私有云备份，不公开、不转发。
 - 模型：Claude Code（Claude Opus）：研究设计与假设、R / Python 实证代码、测量检验、审稿式自查、插图、中期汇报、本进展页；ChatGPT / Codex（GPT）：文献检索与引用核定、数据下载清洗、Word 与 LaTeX 排版、答辩演示、云备份、工具安装；本人：选题与取舍、校内网络下载数据、审阅每一稿、与老师沟通
 - MCP：Claude 内置浏览器 / Claude in Chrome（Claude，网页查阅与核对）；scholar-search（Codex，文献检索）；zotero-research（Codex，读取 Zotero 文献库（库目前为空））；cloudflare-thesis（Codex，论文私有云备份与回读核对）；r-mcptools（Codex，调用 R）；computer-use（Codex，操作桌面应用）
-- Skill：docx（Claude，用过）；academic-search（Codex，已装）；academic-research-suite（Codex，已装）；snl-paper-writing（Codex，已装）；paper-writing-tips（Codex，已装）；latex-to-word-workflow（Codex，已装）；zotero-cli（Codex，已装）；nature-* 系列（Codex，已装）；Supervisor-Skills（Codex，已装）；写作 Skills（82项）（Claude，已装）
+- Skill：老师清单写作 Skills（Claude，已装）；docx（Claude，用过）；academic-search（Codex，已装）；academic-research-suite（Codex，已装）；snl-paper-writing（Codex，已装）；paper-writing-tips（Codex，已装）；latex-to-word-workflow（Codex，已装）；zotero-cli（Codex，已装）；nature-* 系列（Codex，已装）；Supervisor-Skills（Codex，已装）；写作 Skills（82项）（Claude，已装）
 - 软件：R（data.table、fixest、lavaan、semTools、sirt）；Python（pandas、numpy；数据清洗与插图）；XeLaTeX、Pandoc（LaTeX 版论文与答辩演示、格式转换）；Pages、LibreOffice（导出 PDF、检查 Word 版式）；Zotero（文献管理（已装，库为空））；Citation Checker（引用题录核验）；PyMuPDF、Poppler、MinerU（PDF 转文本与版式检查）；Playwright + Chrome（SVG 插图转高清 PNG）；Cloudflare R2（论文材料私有备份）；Idea Gatekeeper（研究扩展线索（只读浏览））
 
-## 老师的写作 Skills 清单（105 项，本机已装 17 项）
+## 老师的写作 Skills 清单（105 项，本机已装 88 项）
 
 来源：王鸿鑫老师群内分享《论文与申报书写作Skills清单》2026-10-24版。整包下载：
 - Yuan1z0825/nature-skills：https://github.com/Yuan1z0825/nature-skills/archive/refs/heads/main.zip
@@ -142,54 +144,54 @@
 
 | 编号 | 类别 | 名称 | 用途 | 建议 | 已装 |
 | --- | --- | --- | --- | --- | --- |
-| 010 | SMJ | [smj-workflow](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-workflow/SKILL.md) | 安排从选题到返修的任务顺序 | 需适配 |  |
-| 031 | SMJ | [smj-topic-selection](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-topic-selection/SKILL.md) | 聚焦研究问题与期刊适配 | 按需使用 |  |
-| 032 | SMJ | [smj-theory-development](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-theory-development/SKILL.md) | 界定构念，展开机制与假设 | 优先参考 |  |
-| 033 | SMJ | [smj-literature-positioning](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-literature-positioning/SKILL.md) | 定位最接近文献和研究缺口 | 优先参考 |  |
-| 034 | SMJ | [smj-methods](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-methods/SKILL.md) | 检查研究设计与论断是否匹配 | 按需使用 |  |
-| 035 | SMJ | [smj-data-analysis](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-data-analysis/SKILL.md) | 组织分析、证据与替代解释 | 按需使用 |  |
-| 036 | SMJ | [smj-contribution-framing](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-contribution-framing/SKILL.md) | 明确理论增量与贡献边界 | 优先参考 |  |
-| 037 | SMJ | [smj-tables-figures](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-tables-figures/SKILL.md) | 组织表格、图件和结果展示 | 按需使用 |  |
-| 038 | SMJ | [smj-writing-style](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-writing-style/SKILL.md) | 改善句段结构、术语和行文 | 优先参考 |  |
-| 039 | SMJ | [smj-submission](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-submission/SKILL.md) | 核对投稿材料与准备事项 | 按需使用 |  |
-| 040 | SMJ | [smj-review-process](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-review-process/SKILL.md) | 组织审稿预判与修改任务 | 按需使用 |  |
-| 041 | SMJ | [smj-rebuttal](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-rebuttal/SKILL.md) | 逐条回应意见并对应稿件修改 | 按需使用 |  |
-| 009 | AMJ | [amj-workflow](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-workflow/SKILL.md) | 安排从选题到返修的任务顺序 | 需适配 |  |
-| 042 | AMJ | [amj-topic-selection](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-topic-selection/SKILL.md) | 聚焦研究问题与期刊适配 | 按需使用 |  |
-| 043 | AMJ | [amj-theory-development](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-theory-development/SKILL.md) | 界定构念，展开机制与假设 | 优先参考 |  |
-| 044 | AMJ | [amj-literature-positioning](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-literature-positioning/SKILL.md) | 定位最接近文献和研究缺口 | 优先参考 |  |
-| 045 | AMJ | [amj-methods](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-methods/SKILL.md) | 检查研究设计与论断是否匹配 | 按需使用 |  |
-| 046 | AMJ | [amj-data-analysis](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-data-analysis/SKILL.md) | 组织分析、证据与替代解释 | 按需使用 |  |
-| 047 | AMJ | [amj-contribution-framing](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-contribution-framing/SKILL.md) | 明确理论增量与贡献边界 | 优先参考 |  |
-| 048 | AMJ | [amj-tables-figures](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-tables-figures/SKILL.md) | 组织表格、图件和结果展示 | 按需使用 |  |
-| 049 | AMJ | [amj-writing-style](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-writing-style/SKILL.md) | 改善句段结构、术语和行文 | 优先参考 |  |
-| 050 | AMJ | [amj-submission](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-submission/SKILL.md) | 核对投稿材料与准备事项 | 按需使用 |  |
-| 051 | AMJ | [amj-review-process](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-review-process/SKILL.md) | 组织审稿预判与修改任务 | 按需使用 |  |
-| 052 | AMJ | [amj-rebuttal](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-rebuttal/SKILL.md) | 逐条回应意见并对应稿件修改 | 按需使用 |  |
-| 053 | AMR | [amr-workflow](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-workflow/SKILL.md) | 安排从选题到返修的任务顺序 | 需适配 |  |
-| 054 | AMR | [amr-topic-selection](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-topic-selection/SKILL.md) | 聚焦研究问题与期刊适配 | 按需使用 |  |
-| 055 | AMR | [amr-theory-development](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-theory-development/SKILL.md) | 界定构念，展开机制与假设 | 优先参考 |  |
-| 056 | AMR | [amr-literature-positioning](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-literature-positioning/SKILL.md) | 定位最接近文献和研究缺口 | 优先参考 |  |
-| 057 | AMR | [amr-methods](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-methods/SKILL.md) | 检查研究设计与论断是否匹配 | 按需使用 |  |
-| 058 | AMR | [amr-data-analysis](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-data-analysis/SKILL.md) | 检查论证逻辑、反事实与替代解释 | 按需使用 |  |
-| 059 | AMR | [amr-contribution-framing](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-contribution-framing/SKILL.md) | 明确理论增量与贡献边界 | 优先参考 |  |
-| 060 | AMR | [amr-tables-figures](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-tables-figures/SKILL.md) | 组织表格、图件和结果展示 | 按需使用 |  |
-| 061 | AMR | [amr-writing-style](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-writing-style/SKILL.md) | 改善句段结构、术语和行文 | 优先参考 |  |
-| 062 | AMR | [amr-submission](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-submission/SKILL.md) | 核对投稿材料与准备事项 | 按需使用 |  |
-| 063 | AMR | [amr-review-process](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-review-process/SKILL.md) | 组织审稿预判与修改任务 | 按需使用 |  |
-| 064 | AMR | [amr-rebuttal](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-rebuttal/SKILL.md) | 逐条回应意见并对应稿件修改 | 按需使用 |  |
-| 065 | ASQ | [asq-workflow](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-workflow/SKILL.md) | 安排从选题到返修的任务顺序 | 需适配 |  |
-| 066 | ASQ | [asq-topic-selection](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-topic-selection/SKILL.md) | 聚焦研究问题与期刊适配 | 按需使用 |  |
-| 067 | ASQ | [asq-theory-development](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-theory-development/SKILL.md) | 界定构念，展开机制与假设 | 优先参考 |  |
-| 068 | ASQ | [asq-literature-positioning](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-literature-positioning/SKILL.md) | 定位最接近文献和研究缺口 | 优先参考 |  |
-| 069 | ASQ | [asq-methods](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-methods/SKILL.md) | 检查研究设计与论断是否匹配 | 按需使用 |  |
-| 070 | ASQ | [asq-data-analysis](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-data-analysis/SKILL.md) | 组织分析、证据与替代解释 | 按需使用 |  |
-| 071 | ASQ | [asq-contribution-framing](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-contribution-framing/SKILL.md) | 明确理论增量与贡献边界 | 优先参考 |  |
-| 072 | ASQ | [asq-tables-figures](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-tables-figures/SKILL.md) | 组织表格、图件和结果展示 | 按需使用 |  |
-| 073 | ASQ | [asq-writing-style](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-writing-style/SKILL.md) | 改善句段结构、术语和行文 | 优先参考 |  |
-| 074 | ASQ | [asq-submission](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-submission/SKILL.md) | 核对投稿材料与准备事项 | 按需使用 |  |
-| 075 | ASQ | [asq-review-process](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-review-process/SKILL.md) | 组织审稿预判与修改任务 | 按需使用 |  |
-| 076 | ASQ | [asq-rebuttal](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-rebuttal/SKILL.md) | 逐条回应意见并对应稿件修改 | 按需使用 |  |
+| 010 | SMJ | [smj-workflow](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-workflow/SKILL.md) | 安排从选题到返修的任务顺序 | 需适配 | 是 |
+| 031 | SMJ | [smj-topic-selection](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-topic-selection/SKILL.md) | 聚焦研究问题与期刊适配 | 按需使用 | 是 |
+| 032 | SMJ | [smj-theory-development](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-theory-development/SKILL.md) | 界定构念，展开机制与假设 | 优先参考 | 是 |
+| 033 | SMJ | [smj-literature-positioning](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-literature-positioning/SKILL.md) | 定位最接近文献和研究缺口 | 优先参考 | 是 |
+| 034 | SMJ | [smj-methods](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-methods/SKILL.md) | 检查研究设计与论断是否匹配 | 按需使用 | 是 |
+| 035 | SMJ | [smj-data-analysis](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-data-analysis/SKILL.md) | 组织分析、证据与替代解释 | 按需使用 | 是 |
+| 036 | SMJ | [smj-contribution-framing](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-contribution-framing/SKILL.md) | 明确理论增量与贡献边界 | 优先参考 | 是 |
+| 037 | SMJ | [smj-tables-figures](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-tables-figures/SKILL.md) | 组织表格、图件和结果展示 | 按需使用 | 是 |
+| 038 | SMJ | [smj-writing-style](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-writing-style/SKILL.md) | 改善句段结构、术语和行文 | 优先参考 | 是 |
+| 039 | SMJ | [smj-submission](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-submission/SKILL.md) | 核对投稿材料与准备事项 | 按需使用 | 是 |
+| 040 | SMJ | [smj-review-process](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-review-process/SKILL.md) | 组织审稿预判与修改任务 | 按需使用 | 是 |
+| 041 | SMJ | [smj-rebuttal](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Strategic-Management-Journal-Skills/skills/smj-rebuttal/SKILL.md) | 逐条回应意见并对应稿件修改 | 按需使用 | 是 |
+| 009 | AMJ | [amj-workflow](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-workflow/SKILL.md) | 安排从选题到返修的任务顺序 | 需适配 | 是 |
+| 042 | AMJ | [amj-topic-selection](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-topic-selection/SKILL.md) | 聚焦研究问题与期刊适配 | 按需使用 | 是 |
+| 043 | AMJ | [amj-theory-development](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-theory-development/SKILL.md) | 界定构念，展开机制与假设 | 优先参考 | 是 |
+| 044 | AMJ | [amj-literature-positioning](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-literature-positioning/SKILL.md) | 定位最接近文献和研究缺口 | 优先参考 | 是 |
+| 045 | AMJ | [amj-methods](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-methods/SKILL.md) | 检查研究设计与论断是否匹配 | 按需使用 | 是 |
+| 046 | AMJ | [amj-data-analysis](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-data-analysis/SKILL.md) | 组织分析、证据与替代解释 | 按需使用 | 是 |
+| 047 | AMJ | [amj-contribution-framing](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-contribution-framing/SKILL.md) | 明确理论增量与贡献边界 | 优先参考 | 是 |
+| 048 | AMJ | [amj-tables-figures](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-tables-figures/SKILL.md) | 组织表格、图件和结果展示 | 按需使用 | 是 |
+| 049 | AMJ | [amj-writing-style](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-writing-style/SKILL.md) | 改善句段结构、术语和行文 | 优先参考 | 是 |
+| 050 | AMJ | [amj-submission](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-submission/SKILL.md) | 核对投稿材料与准备事项 | 按需使用 | 是 |
+| 051 | AMJ | [amj-review-process](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-review-process/SKILL.md) | 组织审稿预判与修改任务 | 按需使用 | 是 |
+| 052 | AMJ | [amj-rebuttal](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Journal-Skills/skills/amj-rebuttal/SKILL.md) | 逐条回应意见并对应稿件修改 | 按需使用 | 是 |
+| 053 | AMR | [amr-workflow](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-workflow/SKILL.md) | 安排从选题到返修的任务顺序 | 需适配 | 是 |
+| 054 | AMR | [amr-topic-selection](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-topic-selection/SKILL.md) | 聚焦研究问题与期刊适配 | 按需使用 | 是 |
+| 055 | AMR | [amr-theory-development](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-theory-development/SKILL.md) | 界定构念，展开机制与假设 | 优先参考 | 是 |
+| 056 | AMR | [amr-literature-positioning](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-literature-positioning/SKILL.md) | 定位最接近文献和研究缺口 | 优先参考 | 是 |
+| 057 | AMR | [amr-methods](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-methods/SKILL.md) | 检查研究设计与论断是否匹配 | 按需使用 | 是 |
+| 058 | AMR | [amr-data-analysis](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-data-analysis/SKILL.md) | 检查论证逻辑、反事实与替代解释 | 按需使用 | 是 |
+| 059 | AMR | [amr-contribution-framing](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-contribution-framing/SKILL.md) | 明确理论增量与贡献边界 | 优先参考 | 是 |
+| 060 | AMR | [amr-tables-figures](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-tables-figures/SKILL.md) | 组织表格、图件和结果展示 | 按需使用 | 是 |
+| 061 | AMR | [amr-writing-style](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-writing-style/SKILL.md) | 改善句段结构、术语和行文 | 优先参考 | 是 |
+| 062 | AMR | [amr-submission](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-submission/SKILL.md) | 核对投稿材料与准备事项 | 按需使用 | 是 |
+| 063 | AMR | [amr-review-process](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-review-process/SKILL.md) | 组织审稿预判与修改任务 | 按需使用 | 是 |
+| 064 | AMR | [amr-rebuttal](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Academy-of-Management-Review-Skills/skills/amr-rebuttal/SKILL.md) | 逐条回应意见并对应稿件修改 | 按需使用 | 是 |
+| 065 | ASQ | [asq-workflow](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-workflow/SKILL.md) | 安排从选题到返修的任务顺序 | 需适配 | 是 |
+| 066 | ASQ | [asq-topic-selection](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-topic-selection/SKILL.md) | 聚焦研究问题与期刊适配 | 按需使用 | 是 |
+| 067 | ASQ | [asq-theory-development](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-theory-development/SKILL.md) | 界定构念，展开机制与假设 | 优先参考 | 是 |
+| 068 | ASQ | [asq-literature-positioning](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-literature-positioning/SKILL.md) | 定位最接近文献和研究缺口 | 优先参考 | 是 |
+| 069 | ASQ | [asq-methods](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-methods/SKILL.md) | 检查研究设计与论断是否匹配 | 按需使用 | 是 |
+| 070 | ASQ | [asq-data-analysis](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-data-analysis/SKILL.md) | 组织分析、证据与替代解释 | 按需使用 | 是 |
+| 071 | ASQ | [asq-contribution-framing](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-contribution-framing/SKILL.md) | 明确理论增量与贡献边界 | 优先参考 | 是 |
+| 072 | ASQ | [asq-tables-figures](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-tables-figures/SKILL.md) | 组织表格、图件和结果展示 | 按需使用 | 是 |
+| 073 | ASQ | [asq-writing-style](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-writing-style/SKILL.md) | 改善句段结构、术语和行文 | 优先参考 | 是 |
+| 074 | ASQ | [asq-submission](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-submission/SKILL.md) | 核对投稿材料与准备事项 | 按需使用 | 是 |
+| 075 | ASQ | [asq-review-process](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-review-process/SKILL.md) | 组织审稿预判与修改任务 | 按需使用 | 是 |
+| 076 | ASQ | [asq-rebuttal](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Administrative-Science-Quarterly-Skills/skills/asq-rebuttal/SKILL.md) | 逐条回应意见并对应稿件修改 | 按需使用 | 是 |
 | 077 | JIBS | [jibs-workflow](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Journal-of-International-Business-Studies-Skills/skills/jibs-workflow/SKILL.md) | 安排从选题到返修的任务顺序 | 需适配 |  |
 | 078 | JIBS | [jibs-topic-selection](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Journal-of-International-Business-Studies-Skills/skills/jibs-topic-selection/SKILL.md) | 聚焦研究问题与期刊适配 | 按需使用 |  |
 | 079 | JIBS | [jibs-theory-development](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Journal-of-International-Business-Studies-Skills/skills/jibs-theory-development/SKILL.md) | 界定构念，展开机制与假设 | 优先参考 |  |
@@ -202,24 +204,24 @@
 | 086 | JIBS | [jibs-submission](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Journal-of-International-Business-Studies-Skills/skills/jibs-submission/SKILL.md) | 核对投稿材料与准备事项 | 按需使用 |  |
 | 087 | JIBS | [jibs-review-process](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Journal-of-International-Business-Studies-Skills/skills/jibs-review-process/SKILL.md) | 组织审稿预判与修改任务 | 按需使用 |  |
 | 088 | JIBS | [jibs-rebuttal](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Journal-of-International-Business-Studies-Skills/skills/jibs-rebuttal/SKILL.md) | 逐条回应意见并对应稿件修改 | 按需使用 |  |
-| 089 | OS | [orgsci-workflow](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-workflow/SKILL.md) | 安排从选题到返修的任务顺序 | 需适配 |  |
-| 090 | OS | [orgsci-topic-selection](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-topic-selection/SKILL.md) | 聚焦研究问题与期刊适配 | 按需使用 |  |
-| 091 | OS | [orgsci-theory-development](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-theory-development/SKILL.md) | 界定构念，展开机制与假设 | 优先参考 |  |
-| 092 | OS | [orgsci-literature-positioning](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-literature-positioning/SKILL.md) | 定位最接近文献和研究缺口 | 优先参考 |  |
-| 093 | OS | [orgsci-methods](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-methods/SKILL.md) | 检查研究设计与论断是否匹配 | 按需使用 |  |
-| 094 | OS | [orgsci-data-analysis](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-data-analysis/SKILL.md) | 组织分析、证据与替代解释 | 按需使用 |  |
-| 095 | OS | [orgsci-contribution-framing](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-contribution-framing/SKILL.md) | 明确理论增量与贡献边界 | 优先参考 |  |
-| 096 | OS | [orgsci-tables-figures](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-tables-figures/SKILL.md) | 组织表格、图件和结果展示 | 按需使用 |  |
-| 097 | OS | [orgsci-writing-style](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-writing-style/SKILL.md) | 改善句段结构、术语和行文 | 优先参考 |  |
-| 098 | OS | [orgsci-submission](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-submission/SKILL.md) | 核对投稿材料与准备事项 | 按需使用 |  |
-| 099 | OS | [orgsci-review-process](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-review-process/SKILL.md) | 组织审稿预判与修改任务 | 按需使用 |  |
-| 100 | OS | [orgsci-rebuttal](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-rebuttal/SKILL.md) | 逐条回应意见并对应稿件修改 | 按需使用 |  |
-| 003 | 申报书 | [nsfc-write](https://github.com/njzjz/nsfc-agent-skills/blob/master/nsfc-write/SKILL.md) | 梳理立项依据、研究内容与研究方案 | 需适配 |  |
+| 089 | OS | [orgsci-workflow](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-workflow/SKILL.md) | 安排从选题到返修的任务顺序 | 需适配 | 是 |
+| 090 | OS | [orgsci-topic-selection](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-topic-selection/SKILL.md) | 聚焦研究问题与期刊适配 | 按需使用 | 是 |
+| 091 | OS | [orgsci-theory-development](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-theory-development/SKILL.md) | 界定构念，展开机制与假设 | 优先参考 | 是 |
+| 092 | OS | [orgsci-literature-positioning](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-literature-positioning/SKILL.md) | 定位最接近文献和研究缺口 | 优先参考 | 是 |
+| 093 | OS | [orgsci-methods](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-methods/SKILL.md) | 检查研究设计与论断是否匹配 | 按需使用 | 是 |
+| 094 | OS | [orgsci-data-analysis](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-data-analysis/SKILL.md) | 组织分析、证据与替代解释 | 按需使用 | 是 |
+| 095 | OS | [orgsci-contribution-framing](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-contribution-framing/SKILL.md) | 明确理论增量与贡献边界 | 优先参考 | 是 |
+| 096 | OS | [orgsci-tables-figures](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-tables-figures/SKILL.md) | 组织表格、图件和结果展示 | 按需使用 | 是 |
+| 097 | OS | [orgsci-writing-style](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-writing-style/SKILL.md) | 改善句段结构、术语和行文 | 优先参考 | 是 |
+| 098 | OS | [orgsci-submission](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-submission/SKILL.md) | 核对投稿材料与准备事项 | 按需使用 | 是 |
+| 099 | OS | [orgsci-review-process](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-review-process/SKILL.md) | 组织审稿预判与修改任务 | 按需使用 | 是 |
+| 100 | OS | [orgsci-rebuttal](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Organization-Science-Skills/skills/orgsci-rebuttal/SKILL.md) | 逐条回应意见并对应稿件修改 | 按需使用 | 是 |
+| 003 | 申报书 | [nsfc-write](https://github.com/njzjz/nsfc-agent-skills/blob/master/nsfc-write/SKILL.md) | 梳理立项依据、研究内容与研究方案 | 需适配 | 是 |
 | 005 | 申报书 | [researchwrite](https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-proposal-writer/SKILL.md) | 用事实台账与证据组织申请书论证 | 需适配 | 是 |
-| 027 | 申报书 | [nsfc-figure](https://github.com/njzjz/nsfc-agent-skills/blob/master/nsfc-figure/SKILL.md) | 制作可编辑框架图与技术路线图 | 按需使用 |  |
-| 028 | 申报书 | [nsfc-literature](https://github.com/njzjz/nsfc-agent-skills/blob/master/nsfc-literature/SKILL.md) | 补查候选文献与初步引用元数据 | 按需使用 |  |
-| 029 | 申报书 | [nsfc-policy](https://github.com/njzjz/nsfc-agent-skills/blob/master/nsfc-policy/SKILL.md) | 建立年度政策与模板核验事项 | 限定用途 |  |
-| 004 | 论文通用 | [nature-social-science](https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-social-science/SKILL.md) | 梳理问题、构念、机制与证据路线 | 优先参考 |  |
+| 027 | 申报书 | [nsfc-figure](https://github.com/njzjz/nsfc-agent-skills/blob/master/nsfc-figure/SKILL.md) | 制作可编辑框架图与技术路线图 | 按需使用 | 是 |
+| 028 | 申报书 | [nsfc-literature](https://github.com/njzjz/nsfc-agent-skills/blob/master/nsfc-literature/SKILL.md) | 补查候选文献与初步引用元数据 | 按需使用 | 是 |
+| 029 | 申报书 | [nsfc-policy](https://github.com/njzjz/nsfc-agent-skills/blob/master/nsfc-policy/SKILL.md) | 建立年度政策与模板核验事项 | 限定用途 | 是 |
+| 004 | 论文通用 | [nature-social-science](https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-social-science/SKILL.md) | 梳理问题、构念、机制与证据路线 | 优先参考 | 是 |
 | 013 | 论文通用 | [nature-writing](https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-writing/SKILL.md) | 组织论文论证、章节与初投材料 | 需适配 | 是 |
 | 014 | 论文通用 | [nature-reviewer](https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-reviewer/SKILL.md) | 模拟审稿并核查稿件内部矛盾 | 需适配 | 是 |
 | 021 | 论文通用 | [nature-response](https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-response/SKILL.md) | 对应审稿意见、修改位置与返修材料 | 按需使用 | 是 |
@@ -228,21 +230,21 @@
 | 007 | 文献工作 | [nature-ref-verifier](https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-ref-verifier/SKILL.md) | 核对作者、年份、题名、页码和DOI | 优先参考 | 是 |
 | 008 | 文献工作 | [nature-reader](https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-reader/SKILL.md) | 阅读原文并核对具体观点的支持证据 | 优先参考 | 是 |
 | 015 | 文献工作 | [nature-citation](https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-citation/SKILL.md) | 匹配Nature、Science、Cell范围文献 | 限定用途 | 是 |
-| 018 | 文献工作 | [nature-paper-xray](https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-paper-xray/SKILL.md) | 还原研究起点、设计、推理与证据边界 | 按需使用 |  |
+| 018 | 文献工作 | [nature-paper-xray](https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-paper-xray/SKILL.md) | 还原研究起点、设计、推理与证据边界 | 按需使用 | 是 |
 | 019 | 文献工作 | [nature-paper-trans](https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-paper-trans/SKILL.md) | 生成保留原版布局的中文图片型PDF | 按需使用 |  |
 | 020 | 文献工作 | [nature-paper-card](https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-paper-card/SKILL.md) | 整理主张、方法、结果和可检验想法 | 按需使用 | 是 |
 | 024 | 文献工作 | [nature-downloader](https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-downloader/SKILL.md) | 从开放或有权访问的入口获取全文 | 按需使用 | 是 |
 | 025 | 文献工作 | [nature-literature-pipeline](https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-literature-pipeline/SKILL.md) | 持续发现、精读与归档新文献 | 按需使用 | 是 |
-| 001 | 表达润色 | [academic-humanizer](https://github.com/AIScientists-Dev/academic-humanizer/blob/main/SKILL.md) | 校准论断强度，保留证据与作者语气 | 优先参考 |  |
-| 002 | 表达润色 | [anti-defensive-writing](https://github.com/Kiterlin/anti-defensive-writing/blob/main/SKILL.md) | 删除防御性措辞、空泛让步与重复解释 | 优先参考 |  |
+| 001 | 表达润色 | [academic-humanizer](https://github.com/AIScientists-Dev/academic-humanizer/blob/main/SKILL.md) | 校准论断强度，保留证据与作者语气 | 优先参考 | 是 |
+| 002 | 表达润色 | [anti-defensive-writing](https://github.com/Kiterlin/anti-defensive-writing/blob/main/SKILL.md) | 删除防御性措辞、空泛让步与重复解释 | 优先参考 | 是 |
 | 012 | 表达润色 | [nature-polishing](https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-polishing/SKILL.md) | 润色、翻译和精简已有学术文本 | 优先参考 | 是 |
-| 026 | 表达润色 | [humanizer](https://github.com/blader/humanizer/blob/main/SKILL.md) | 检查套话、机械对比和重复收尾 | 按需使用 |  |
+| 026 | 表达润色 | [humanizer](https://github.com/blader/humanizer/blob/main/SKILL.md) | 检查套话、机械对比和重复收尾 | 按需使用 | 是 |
 | 011 | 方法与图件 | [nature-figure](https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-figure/SKILL.md) | 制作统计图、交互效应图与理论框架图 | 按需使用 | 是 |
 | 016 | 方法与图件 | [nature-data](https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-data/SKILL.md) | 编写数据和代码可用性说明 | 按需使用 | 是 |
 | 017 | 方法与图件 | [nature-statistics](https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-statistics/SKILL.md) | 审核样本、效应量、区间与数值一致性 | 需适配 | 是 |
 | 022 | 方法与图件 | [nature-paper2ppt](https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-paper2ppt/SKILL.md) | 从论文或笔记生成中文汇报PPT与讲稿 | 按需使用 | 是 |
-| 023 | 方法与图件 | [nature-image2ppt](https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-image2ppt/SKILL.md) | 将图片型幻灯片重建为可编辑对象 | 按需使用 |  |
-| 101 | 文献工作 | [literature-downloader-skill](https://github.com/Lucaswangzcx/literature-downloader-skill/blob/main/SKILL.md) | 检索文献、整理题录及获取可访问全文 | 按需使用 |  |
+| 023 | 方法与图件 | [nature-image2ppt](https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-image2ppt/SKILL.md) | 将图片型幻灯片重建为可编辑对象 | 按需使用 | 是 |
+| 101 | 文献工作 | [literature-downloader-skill](https://github.com/Lucaswangzcx/literature-downloader-skill/blob/main/SKILL.md) | 检索文献、整理题录及获取可访问全文 | 按需使用 | 是 |
 | 102 | 方法与图件 | [Image-to-editable-PPT](https://github.com/ningzimu/image-to-editable-ppt-skill/blob/main/skills/image-to-editable-ppt/SKILL.md) | 将图片、PDF及图片型PPT重建为可编辑对象 | 来源待确认 |  |
 | 103 | 方法与图件 | [literature-report-ppt-builder](https://github.com/fangyuanopus/literature-report-ppt-builder/blob/main/skills/academic-slide-pragmatic-fallback/SKILL.md) | 依据论文与补充材料制作中文文献汇报PPT | 按需使用 |  |
 | 104 | 综合工具包 | [academic-research-skills-codex](https://github.com/Imbad0202/academic-research-skills-codex/blob/main/skills/academic-research-suite/SKILL.md) | 统筹文献研究、论文写作、评审与修订 | 按需使用 | 是 |
