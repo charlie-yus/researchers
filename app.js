@@ -15,7 +15,7 @@ const ago = Math.round((today - new Date(S.meta.updated)) / 864e5);
 const STATE = { done: "已落实", doing: "进行中", ask: "待确认" };
 const curPhase = R.rounds.length ? R.rounds[R.rounds.length - 1].phase : R.phases[0].id;
 const SECTIONS = [["log", "进展"], ["tasks", "完成"], ["revision", "改稿"], ["feedback", "意见"], ["tools", "工具"], ["outputs", "成果"]];
-const KINDS = ["完成", "反馈", "改稿", "工具"];
+const KINDS = ["完成", "反馈", "改稿", "问题", "工具"];
 const GROUPS = [...new Set(S.tasks.map((t) => t.group))];
 const FB = [...S.feedback.map((f) => [`${md2(f.date)} ${f.source}`, f.items]), ["待老师确认", S.questions.map((q) => ({ text: q, reply: "请老师确认", state: "ask" }))]];
 const TOOLS = [["分工"], ["数据"], ["MCP"], ["Skill"], ["软件"], [`写作 Skills ${K.skills.length}`]];
