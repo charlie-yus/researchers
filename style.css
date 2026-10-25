@@ -288,3 +288,5 @@ footer { max-width: 1200px; margin: 0 auto; padding: 22px 10px 40px; border-top:
   .files { grid-template-columns: repeat(3, 1fr); }
 }
 
+.playbook { margin: 4px 0 0 0; padding-left: 26px; line-height: 2; font-size: 15px; list-style: decimal; }
+.playbook li::marker { color: var(--accent, #c0632f); font-weight: 600; }

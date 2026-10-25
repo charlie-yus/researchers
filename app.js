@@ -14,10 +14,11 @@ const days = next ? Math.round((new Date(next.date) - today) / 864e5) : null;
 const ago = Math.round((today - new Date(S.meta.updated)) / 864e5);
 const STATE = { done: "已落实", doing: "进行中", ask: "待确认" };
 const curPhase = R.rounds.length ? R.rounds[R.rounds.length - 1].phase : R.phases[0].id;
-const SECTIONS = [["log", "进展"], ["tasks", "完成"], ["revision", "改稿"], ["feedback", "意见"], ["tools", "工具"], ["outputs", "成果"]];
+const SECTIONS = [["log", "进展"], ["tasks", "完成"], ["revision", "改稿"], ["feedback", "意见"], ["tools", "工具"], ["lessons", "经验"], ["outputs", "成果"]];
 const KINDS = ["完成", "反馈", "改稿", "问题", "工具"];
 const GROUPS = [...new Set(S.tasks.map((t) => t.group))];
 const FB = [...S.feedback.map((f) => [`${md2(f.date)} ${f.source}`, f.items]), ["待老师确认", S.questions.map((q) => ({ text: q, reply: "请老师确认", state: "ask" }))]];
+const LS = S.lessons ? [...S.lessons.groups.map((g) => [g.area, g.items]), ["规模化流程", null]] : [];
 const TOOLS = [["分工"], ["数据"], ["MCP"], ["Skill"], ["软件"], [`写作 Skills ${K.skills.length}`]];
 const taskRow = (t) => `<div class="task${t.done ? " done" : ""}"><span class="box">${t.done ? CHECK : ""}</span><span>${esc(t.title)}${t.note ? `<span class="n">${esc(t.note)}</span>` : ""}</span>${t.date ? `<time>${md2(t.date)}</time>` : "<span></span>"}</div>`;
 const head = (kicker, title) => `<span class="kicker">${kicker}</span><h2 class="title">${title}</h2>`;
@@ -63,6 +64,8 @@ $("#app").innerHTML = `
 
     <section id="tools" class="block"><div class="bh"><h2>用到的工具</h2><div class="seg" data-tabs="tools">${TOOLS.map(([n], i) => `<button aria-pressed="${!i}" data-k="${i}">${n}</button>`).join("")}</div></div><div class="bp" id="p-tools"></div></section>
 
+    <section id="lessons" class="block"><div class="bh"><h2>卡点与经验</h2><div class="seg" data-tabs="lessons">${LS.map(([n], i) => `<button aria-pressed="${!i}" data-k="${i}">${esc(n)}</button>`).join("")}</div></div><div class="bp" id="p-lessons"></div></section>
+
     <section id="outputs" class="block"><div class="bh"><h2>成果</h2><span class="hint">输入密码后打开</span></div>
       <div class="files">${S.outputs.map((o, i) => `<button class="file" data-id="${o.id}"><span class="cover" style="background-position:${["6% 52%", "32% 40%", "50% 30%", "78% 34%", "96% 50%"][i % 5]}"><i>${LOCK}</i></span><b>${esc(o.title)}</b><small>${esc(o.kind)} · ${esc(o.note)}</small></button>`).join("")}</div></section>
   </div>
@@ -76,6 +79,8 @@ const PANEL = {
       <ul class="items">${d.items.map((it) => `<li class="item"><h4>${it.module === it.kind ? esc(it.kind) : `${esc(it.module)} · ${esc(it.kind)}`}</h4><p>${esc(it.text)}</p></li>`).join("")}</ul>`; },
   tasks: (i) => `<div class="cols">${S.tasks.filter((t) => t.group === GROUPS[i]).map(taskRow).join("")}</div>`,
   feedback: (i) => `<div class="fbt">` + table(["", "老师说", "落实"], FB[i][1].map((it) => [`<span class="st ${it.state}" title="${STATE[it.state]}"></span>`, esc(it.text), esc(it.reply)])) + "</div>",
+  lessons: (i) => LS[i][1] ? table(["卡点", "原因", "怎么解决", "以后的规则"], LS[i][1].map((x) => [esc(x.problem), esc(x.cause), esc(x.fix), `<b>${esc(x.rule)}</b>`]))
+    : `<ol class="playbook">${S.lessons.playbook.map((x) => `<li>${esc(x)}</li>`).join("")}</ol>`,
   tools: (i) => { const t = S.tools;
     return [
       () => `<div class="roles">${t.models.map((d) => `<div class="role"><small>${esc(d[1] || "人工")}</small><b>${esc(d[0])}</b><span>${esc(d[2])}</span></div>`).join("")}</div>`,

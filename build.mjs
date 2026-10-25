@@ -51,6 +51,11 @@ function context(s, k) {
   }
   L.push("", `## 想请老师确认的问题`, "", ...s.questions.map((q, i) => `${i + 1}. ${q}`));
   L.push("", `## 协作记录（新在前）`, "", ...s.log.map((x) => `- ${x.date} · ${x.actor}：${x.text}`));
+  if (s.lessons) {
+    L.push("", `## 卡点与经验（${s.lessons.date}）`, "");
+    for (const g of s.lessons.groups) { L.push(`### ${g.area}`); for (const x of g.items) L.push(`- ${x.problem}：${x.cause}→${x.fix}。规则：${x.rule}`); }
+    L.push("", "### 规模化流程", ...s.lessons.playbook.map((x, i) => `${i + 1}. ${x}`));
+  }
   L.push("", `## 工具与数据`, "");
   L.push(`- 数据：${s.tools.data.map((d) => `${d[0]}（${d[1]}）`).join("；")}。${s.tools.dataNote}`);
   L.push(`- 模型：${s.tools.models.map((d) => `${d[0]}${d[1] ? `（${d[1]}）` : ""}：${d[2]}`).join("；")}`);
